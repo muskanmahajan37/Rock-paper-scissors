@@ -112,6 +112,10 @@ main {
         z-index: -1;
     }
     
+    &:active {
+    @include transform-scale(0.9)
+}
+    
 }
 
 .btn-circle {
@@ -126,10 +130,6 @@ main {
 
 .button:focus {
     outline: none; 
-}
-
-.btn-circle:active {
-    @include transform-scale(0.9)
 }
 
 .btn-circle .wrapper {
