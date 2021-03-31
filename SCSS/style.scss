@@ -25,7 +25,6 @@ $white: #fff ;
     box-shadow: $value;
 }
 
-
 body {
     background: radial-gradient(circle at 50% 10%, hsl(214, 47%, 23%), hsl(237, 49%, 15%));
     font-family: 'Barlow Semi Condensed', sans-serif;
@@ -112,10 +111,6 @@ main {
         z-index: -1;
     }
     
-    &:active {
-    @include transform-scale(0.9)
-}
-    
 }
 
 .btn-circle {
@@ -126,22 +121,28 @@ main {
     width: 150px;
     margin: 0 25px;
     cursor: pointer;
+
+    &:active{
+        @include transform-scale(0.9)
+    }
+
+    .wrapper {
+        @include box-shadow(inset 0 -5px  rgba(0, 0, 0, 0.15));
+        width: 120px;
+        height: 120px;
+        background-color: $white;
+        display: inline-flex;
+        @include border-radius(50%);
+        align-items: center;
+        justify-content: center;
+    }
 }
 
 .button:focus {
     outline: none; 
 }
 
-.btn-circle .wrapper {
-    @include box-shadow(inset 0 -5px  rgba(0, 0, 0, 0.15));
-    width: 120px;
-    height: 120px;
-    background-color: $white;
-    display: inline-flex;
-    @include border-radius(50%);
-    align-items: center;
-    justify-content: center;
-}
+
 .btn-paper {
     background: linear-gradient(
         to bottom,
@@ -204,11 +205,11 @@ main {
     max-width: 100%;
     margin: 0 auto;
 
-}
+    .btn-circle {
+        margin: 50px 100px;
+        @include transform-scale(1.4);
+    }
 
-.selection .btn-circle {
-    margin: 50px 100px;
-    @include transform-scale(1.4);
 }
 
 
@@ -231,14 +232,14 @@ main {
     width: 100vw;
     height: 100vh;
     z-index: 100;
-}
 
-.rules-modal button {
-    border: none;
-    background-color: transparent;
-    cursor: pointer;
-    margin-top: 100px;
-    @include transform-scale(1.5);
+    button {
+        border: none;
+        background-color: transparent;
+        cursor: pointer;
+        margin-top: 100px;
+        @include transform-scale(1.5);
+    }
 }
 
 @media (max-width: 800px) {
