@@ -15,7 +15,7 @@ Your challenge is to build out this Rock, Paper, Scissors game and get it lookin
 You can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.
 
 ---
-## requirements:
+## :mag: requirements:
 
 - View the optimal layout for the game depending on their device's screen size
 - Play Rock, Paper, Scissors against the computer
