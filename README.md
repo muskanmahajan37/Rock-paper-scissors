@@ -1,7 +1,7 @@
 # Rock, Paper, Scissors
 
 <h1 align="center">
-    <img src="https://ik.imagekit.io/mcvhbcq4zu/giphy_8xdH_MJW4.gif">
+    <img src="https://ik.imagekit.io/mcvhbcq4zu/rock_rlNvxhQlG.gif">
 </h1>
 
 ## The challenge
