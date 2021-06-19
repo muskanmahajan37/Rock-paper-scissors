@@ -4,6 +4,10 @@
     <img src="https://ik.imagekit.io/mcvhbcq4zu/rock_rlNvxhQlG.gif">
 </h1>
 
+# Important
+
+:key: Take a look --> https://github.com/VictorLira-DEV/Rock-paper-scissors
+
 ## The challenge
 Your challenge is to build out this Rock, Paper, Scissors game and get it looking as close to the design as possible.
 
